@@ -16,6 +16,7 @@ This repository is the official implementation of M-ShallowConvNet in pytorch-li
 
 ```bash
   $ git clone https://github.com/comojin1994/m-shallowconvnet.git
+  $ cd m-shallowconvnet
 ```
 
 ### 1.2 Preparing data
@@ -46,6 +47,8 @@ CKPT_PATH: "./checkpoints"
 > Build and access the docker container
 
 ```bash
+  # The default CUDA version is 11.x
+  # PLZ change the script if you use CUDA version of 10.x
   $ bash docker/start_docker.sh
   $ docker exec -it torch-server /bin/bash
   $ cd m-shallowconvnet
