@@ -12,7 +12,13 @@ This repository is the official implementation of M-ShallowConvNet in pytorch-li
 
 ## 1. Installation
 
-### 1.1 Preparing data
+### 1.1 Clone this repository
+
+```bash
+  $ git clone https://github.com/comojin1994/m-shallowconvnet.git
+```
+
+### 1.2 Preparing data
 
 > After downloading the [BCI Competition IV 2a & 2b data](https://www.bbci.de/competition/iv/#download), revise the data's directory in the config files
 
@@ -23,13 +29,7 @@ LOG_PATH: "./logs"
 CKPT_PATH: "./checkpoints"
 ```
 
-### 1.2 Environment setup
-
-> Clone this repository
-
-```bash
-  $ git clone https://github.com/comojin1994/m-shallowconvnet.git
-```
+### 1.3 Environment setup
 
 > Create `checkpoints` and `logs` directory following the structure
 
