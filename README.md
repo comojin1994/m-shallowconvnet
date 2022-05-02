@@ -91,7 +91,14 @@ CKPT_PATH: "./checkpoints"
   $ bash script/bcicompet2b.sh
 ```
 
-## 6. Device info
+## 6. Evaluation
+
+```bash
+  $ python evaluation.py --config_name <CONFIG FILE> --ckpt_path <CKPT PATH>
+  # CONFIG FILE: bcicompet2a_config, bcicompet2b_config
+```
+
+## 7. Device info
 
 - GPU: Geforce RTX 3090 \* 3
 - CPU: Inter Core-X i9-10980XE
