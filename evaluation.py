@@ -28,7 +28,7 @@ from utils.setup_utils import (
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--config_name', type=str, default='bcicompet2a_config')
-parser.add_argument('--ckpt_path', type=str, default='20220502_task_BCICompet2a_batch_64_lr_2e-3_Baseline')
+parser.add_argument('--ckpt_path', type=str, default='BCICompet2a')
 aargs = parser.parse_args()
 
 
