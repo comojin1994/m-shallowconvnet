@@ -79,7 +79,7 @@ CKPT_PATH: "./checkpoints"
 ## 4. Pre-trained weight
 
 - [BCI Competition IV 2a](https://drive.google.com/file/d/1-ha12ivVKzmVf4zg7U2WUWf1JrMuHhdF/view?usp=sharing)
-- [BCI Competition IV 2a](https://drive.google.com/file/d/1EByV-FZVnaehhjk-b9C0lM88ak32M26g/view?usp=sharing)
+- [BCI Competition IV 2b](https://drive.google.com/file/d/1EByV-FZVnaehhjk-b9C0lM88ak32M26g/view?usp=sharing)
 
 ## 5. Training
 
