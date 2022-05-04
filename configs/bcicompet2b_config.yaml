@@ -4,7 +4,7 @@ LOG_PATH: "./logs"
 CKPT_PATH: "./checkpoints"
 
 #### Setting step ####
-SEED: 45
+SEED: 42
 GPU_NUM: "0"
 num_workers: 0
 
