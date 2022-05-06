@@ -1,14 +1,16 @@
 # Optimization of ShallowConvNet for Enhancing the Decoding Performance of Motor Imagery-based EEG Signals
 
-This repository is the official implementation of M-ShallowConvNet in pytorch-lightning style.
-
-- [M-ShallowConvNet paper]() - TBA
+This repository is the official implementation of [M-ShallowConvNet]() in pytorch-lightning style:
 
 ```
 @article{
   TBA
 }
 ```
+
+## Abstract
+
+> Brain-computer interface (BCI) is a technology that allows users to control computers by reflecting users' intentions. Electroencephalogram (EEG)-based BCI has been developed owing to its potential, however, its decoding performance is still insufficient to apply in the real-world environment. As deep learning methods achieve the significant performance in various domains, it has been applied in the EEG-based BCI domain. In particular, ShallowConvNet is one of the most widely used methods owing to its robust decoding performance in multiple datasets. However, the model's parameters have to be optimized to apply this model to various datasets each time, and we have also found some issues in architecture that disturb the stable training. In this paper, we highlight potential problems that might arise in ShallowConvNet and investigate the potential solutions. In addition, we propose a novel model, called M-ShallowConvNet, which solves the existing problems. The proposed model achieves the accuracies of 0.8164 and 0.8647 in dataset 2a and 2b of BCI competition IV, respectively. Hence, we demonstrate that performance improvement can be achieved with only a few small modifications that resolve the problems of the conventional model.
 
 ## 1. Installation
 
