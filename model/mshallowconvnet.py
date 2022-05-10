@@ -34,8 +34,8 @@ class MShallowConvNet(nn.Module):
         x = torch.log(torch.clamp(x, min=1e-06))
         x = self.bn(x)
         
-        x = self.dropout(x)
         x = self.flatten(x)
+        x = self.dropout(x)
         return x
     
 
@@ -43,12 +43,10 @@ class classifier(nn.Module):
     def __init__(self, num_classes):
         super(classifier, self).__init__()
         
-        self.flatten = nn.Flatten()
         self.dense = LazyLinearWithConstraint(num_classes, max_norm=0.5)
 
         
     def forward(self, x):
-        x = self.flatten(x)
         x = self.dense(x)
         return x
 
