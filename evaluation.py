@@ -86,7 +86,7 @@ for num_subject in range(args.num_subjects):
         ckpt_path = sorted(glob(f'{args.CKPT_PATH}/{args.LOG_NAME}/fold_{fold + 1}/*S{num_subject:02d}*'))[-1]
         print(ckpt_path)
         model = get_litmodel(args)
-        model.load_state_dict(torch.load(ckpt_path)['state_dict'], strict=False)
+        model.load_state_dict(torch.load(ckpt_path, map_location=args.device)['state_dict'], strict=False)
         
         trainer = Trainer(
             gpus=[int(args.GPU_NUM)],
