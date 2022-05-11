@@ -85,6 +85,8 @@ CKPT_PATH: "./checkpoints"
 
 ## 5. Training
 
+> Revise the bash script to fit the device environment
+
 ```bash
   # BCI Competition IV 2a
   $ bash script/bcicompet2a.sh
