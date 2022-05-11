@@ -1,5 +1,7 @@
 #!/bin/bash
 
+directory=$(cd ../ && pwd)
+
 docker run --restart always \
 -d \
 -it \
@@ -7,7 +9,7 @@ docker run --restart always \
 --runtime nvidia \
 --ipc=host \
 --gpus all \
--v $(pwd):/opt/pytorch \
+-v ${directory}:/opt/pytorch \
 comojin1994/cu11.2-ubuntu-18.04-pytorch-1.10.0:0.4 \
 /bin/bash;
 
