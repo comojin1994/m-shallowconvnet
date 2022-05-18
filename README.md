@@ -1,4 +1,4 @@
-# Optimization of ShallowConvNet for Enhancing the Decoding Performance of Motor Imagery-based EEG Signals
+# Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals
 
 This repository is the official implementation of [M-ShallowConvNet]() in pytorch-lightning style:
 
