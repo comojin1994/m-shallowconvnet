@@ -4,9 +4,6 @@ This repository is the official implementation of [M-ShallowConvNet]() in pytorc
 
 ```
 @article{
-  TBA
-}
-@article{
   9878333,
   author={Kim, Sung-Jin and Lee, Dae-Hyeok and Lee, Seong-Whan},
   journal={IEEE Access},
