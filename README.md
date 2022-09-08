@@ -6,11 +6,18 @@ This repository is the official implementation of [M-ShallowConvNet]() in pytorc
 @article{
   TBA
 }
+@article{
+  9878333,
+  author={Kim, Sung-Jin and Lee, Dae-Hyeok and Lee, Seong-Whan},
+  journal={IEEE Access},
+  title={Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals},
+  year={2022}
+}
 ```
 
 ## Abstract
 
-> Brain-computer interface (BCI) is a technology that allows users to control computers by reflecting users' intentions. Electroencephalogram (EEG)-based BCI has been developed owing to its potential, however, its decoding performance is still insufficient to apply in the real-world environment. As deep learning methods achieve the significant performance in various domains, it has been applied in the EEG-based BCI domain. In particular, ShallowConvNet is one of the most widely used methods owing to its robust decoding performance in multiple datasets. However, the model's parameters have to be optimized to apply this model to various datasets each time, and we have also found some issues in architecture that disturb the stable training. In this paper, we highlight potential problems that might arise in ShallowConvNet and investigate the potential solutions. In addition, we propose a novel model, called M-ShallowConvNet, which solves the existing problems. The proposed model achieves the accuracies of 0.8164 and 0.8647 in dataset 2a and 2b of BCI competition IV, respectively. Hence, we demonstrate that performance improvement can be achieved with only a few small modifications that resolve the problems of the conventional model.
+> Brain–computer interface (BCI) is a technology that allows users to control computers by reflecting their intentions. Electroencephalogram (EEG)–based BCI has been developed because of its potential, however, its decoding performance is still insufficient to apply in the real–world environment. As deep learning methods achieve the significant performance in various domains, it has been applied in the EEG–based BCI domain. In particular, ShallowConvNet is one of the most widely used methods because of its robust decoding performance in multiple datasets. However, the model’s parameters have to be optimized to apply this model to various datasets each time, and we have also found some issues in architecture that disturb the stable training. In this paper, we highlight potential problems that might arise in ShallowConvNet and investigate the potential solutions. In addition, we propose a novel model, called M–ShallowConvNet, which solves the existing problems. The proposed model achieves the accuracies of 0.8164 and 0.8647 in datasets 2a and 2b of BCI Competition IV, respectively. Hence, we demonstrate that performance improvement can be achieved with only a few small modifications that resolve the problems of the conventional model.
 
 ## 1. Installation
 
