@@ -3,12 +3,12 @@
 This repository is the official implementation of [M-ShallowConvNet]() in pytorch-lightning style:
 
 ```
-@article{
-  9878333,
+@article{kim2022rethinking,
+  title={Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals},
   author={Kim, Sung-Jin and Lee, Dae-Hyeok and Lee, Seong-Whan},
   journal={IEEE Access},
-  title={Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals},
-  year={2022}
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
