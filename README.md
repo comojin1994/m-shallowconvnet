@@ -1,6 +1,6 @@
 # Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals
 
-This repository is the official implementation of [M-ShallowConvNet]() in pytorch-lightning style:
+This repository is the official implementation of [M-ShallowConvNet](https://ieeexplore.ieee.org/iel7/6287639/6514899/09878333.pdf) in pytorch-lightning style:
 
 ```
 @article{kim2022rethinking,
