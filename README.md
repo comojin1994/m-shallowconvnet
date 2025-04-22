@@ -1,5 +1,9 @@
 # Rethinking CNN Architecture for Enhancing Decoding Performance of Motor Imagery-based EEG Signals
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=comojin1994/m-shallowconvnet&type=Date)](https://www.star-history.com/#comojin1994/m-shallowconvnet&Date)
+
 This repository is the official implementation of [M-ShallowConvNet](https://ieeexplore.ieee.org/iel7/6287639/6514899/09878333.pdf) in pytorch-lightning style:
 
 ```
@@ -110,3 +114,4 @@ CKPT_PATH: "./checkpoints"
 
 - GPU: Geforce RTX 3090 \* 3
 - CPU: Inter Core-X i9-10980XE
+
